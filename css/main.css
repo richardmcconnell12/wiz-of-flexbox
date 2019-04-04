@@ -46,6 +46,19 @@ img {
     background-color: antiquewhite;
 }
 
+.flex-item {
+    background-color: lightpink;
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.section-img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
 main {
     flex: 2;
     margin: 1em;
