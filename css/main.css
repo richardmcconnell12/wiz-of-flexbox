@@ -1,0 +1,82 @@
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: powderblue;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: orange;
+    width: 100%;
+    justify-content: center;
+    padding: .2em;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+nav a {
+    margin: 2em 1em 0px 1em;
+    color: navy;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+main {
+    flex: 2;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: navy;
+}
+
+h1, h2, h3 {
+    color: maroon;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(7, 7, 65)
+}
+
+.wrapper {
+    background-color: lightcyan
+}
